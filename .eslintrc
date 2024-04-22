@@ -6,13 +6,13 @@
         "jasmine": true
     },
     "plugins": [
-      "@typescript-eslint",
+    //   "@typescript-eslint",
       "prettier"
     ],
     "extends": [
       "eslint:recommended",
-      "plugin:@typescript-eslint/eslint-recommended",
-      "plugin:@typescript-eslint/recommended",
+    //   "plugin:@typescript-eslint/eslint-recommended",
+    //   "plugin:@typescript-eslint/recommended",
       "prettier"
     ],
     "parserOptions": {
@@ -20,7 +20,7 @@
         "sourceType": "module"
     },
     "rules": {
-      "prettier/prettier": 2 ,
+      "prettier/prettier": 2,
       "no-use-before-define": ["error", { "functions": true, "classes": true }],
       "no-var": "error",
       "prefer-const": "error"

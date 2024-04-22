@@ -16,18 +16,18 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd documentation
+          cd docs
           npm install
 
       - name: Build website
         run: |
-          cd documentation
+          cd docs
           npm run build
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: documentation/build
+          path: docs/build
 
   deploy:
     name: Deploy to GitHub Pages

@@ -1,19 +1,31 @@
 {
-  "name": "lib-wpp",
-  "version": "0.0.114",
-  "description": "",
-  "main": "index.jsx",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CarlosArgelio/lib-wpp.git"
-  },
-  "keywords": [],
-  "author": "Carlos A Palacios R",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^18.2.0"
-  }
+	"name": "lib-wpp",
+	"version": "0.0.114",
+	"description": "",
+	"main": "index.jsx",
+	"scripts": {
+		"prettier": "prettier --config .prettierrc './**/*.{js,ts}' --write",
+		"lint": "eslint ./src --ext .js,.ts",
+		"lint-fix": "eslint ./src --ext .js,.ts --fix",
+		"start": "....",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"husky": "husky install"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CarlosArgelio/lib-wpp.git"
+	},
+	"keywords": [],
+	"author": "Carlos A Palacios R",
+	"license": "ISC",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^7.7.0",
+		"@typescript-eslint/parser": "^7.7.0",
+		"eslint": "^9.1.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"husky": "^9.0.11",
+		"prettier": "3.2.5",
+		"react": "^18.2.0"
+	}
 }

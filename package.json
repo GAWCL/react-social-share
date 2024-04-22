@@ -1,13 +1,10 @@
 {
   "name": "lib-wpp",
-  "version": "0.0.1",
+  "version": "0.0.114",
   "description": "",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "exports": {
-    "./index.jsx": "./index.jsx"
   },
   "repository": {
     "type": "git",

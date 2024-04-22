@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Hello = () => {
+const Hello = () => {
     return (
         <React.Fragment>
             <div>
@@ -9,3 +9,5 @@ export const Hello = () => {
         </React.Fragment>
     )
 }
+
+export { Hello }; 

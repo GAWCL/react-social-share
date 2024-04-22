@@ -15,9 +15,10 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: ls -al
-        run: cd documentation
-        run: npm install
+        run:
+          - ls -al
+          - cd documentation
+          - npm install
 
       - name: Build website
         run: npm run build

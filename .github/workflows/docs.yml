@@ -1,9 +1,6 @@
 name: Deploy to GitHub Pages
 
-on:
-  push:
-    branches:
-      - release/v0.0.2Alpha
+on: [push]
 
 jobs:
   build:

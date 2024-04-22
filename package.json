@@ -1,6 +1,6 @@
 {
 	"name": "lib-wpp",
-	"version": "0.0.2",
+	"version": "0.0.2Alpha",
 	"description": "",
 	"main": "index.jsx",
 	"scripts": {

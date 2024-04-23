@@ -10,7 +10,7 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"lib-wpp": "^0.0.3-Alpha",
+		"lib-wpp": "^0.0.31-Alpha",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},

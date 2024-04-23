@@ -1,6 +1,6 @@
 {
 	"name": "lib-wpp",
-	"version": "0.0.31Alpha",
+	"version": "0.0.32Alpha",
 	"description": "",
 	"main": "src/index.tsx",
 	"files": [

@@ -1,15 +1,21 @@
 {
 	"name": "lib-wpp",
-	"version": "0.0.2Alpha",
+	"version": "0.0.3Alpha",
 	"description": "",
-	"main": "index.jsx",
+	"main": "src/index.tsx",
+	"files": [
+		"src",
+		"build"
+	],
 	"scripts": {
 		"prettier": "prettier --config .prettierrc './**/*.{js,jsx,ts,tsx}' --write",
 		"lint": "npx eslint --ext .js,.jsx,.ts,.tsx",
 		"lint-fix": "eslint ./src --ext .js,.ts --fix",
 		"start": "....",
 		"test": "jest",
-		"husky": "husky install"
+		"build": "npx tsc -p .",
+		"husky": "husky install",
+		"prepare": "npm run build"
 	},
 	"repository": {
 		"type": "git",

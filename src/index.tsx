@@ -1,5 +1,5 @@
 import React from 'react';
-import { Glyph } from '@/';
+import { Glyph } from './Components';
 
 export const WhatsAppButton = () => {
 	return (

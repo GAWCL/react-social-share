@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { WhatsAppButton } from '../../build';
+import { WhatsAppButton } from 'lib-wpp';
 
 function App() {
 	return (

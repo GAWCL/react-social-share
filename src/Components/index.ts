@@ -1,3 +1,7 @@
 import { Glyph } from './Glyph';
 
-export { Glyph };
+export const svg = {
+	Glyph: Glyph,
+	// Inline: '',
+	// Stacked: '',
+};

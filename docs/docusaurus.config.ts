@@ -3,32 +3,24 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-	title: 'My Site',
+	title: 'React Social Share',
 	tagline: 'Dinosaurs are cool',
 	favicon: 'img/favicon.ico',
 
-	// Set the production url of your site here
 	url: 'https://gawcl.github.io',
-	// Set the /<baseUrl>/ pathname under which your site is served
-	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: '/react-social-share/',
 
-	// GitHub pages deployment config.
-	// If you aren't using GitHub pages, you don't need these.
-	organizationName: 'GAW', // Usually your GitHub org/user name.
-	projectName: 'react-social-share', // Usually your repo name.
+	organizationName: 'GAW',
+	projectName: 'react-social-share',
 
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 
 	trailingSlash: false,
 
-	// Even if you don't use internationalization, you can use this field to set
-	// useful metadata like html lang. For example, if your site is Chinese, you
-	// may want to replace "en" with "zh-Hans".
 	i18n: {
 		defaultLocale: 'en',
-		locales: ['en'],
+		locales: ['en', 'es'],
 	},
 
 	presets: [
@@ -60,9 +52,9 @@ const config: Config = {
 		// Replace with your project's social card
 		image: 'img/docusaurus-social-card.jpg',
 		navbar: {
-			title: 'My Site',
+			title: 'React Social Share',
 			logo: {
-				alt: 'My Site Logo',
+				alt: 'React Social Share Logo',
 				src: 'img/logo.svg',
 			},
 			items: [
@@ -72,9 +64,9 @@ const config: Config = {
 					position: 'left',
 					label: 'Tutorial',
 				},
-				{ to: '/blog', label: 'Blog', position: 'left' },
+				// { to: '/blog', label: 'Blog', position: 'left' },
 				{
-					href: 'https://github.com/facebook/docusaurus',
+					href: 'https://github.com/GAWCL/react-social-share',
 					label: 'GitHub',
 					position: 'right',
 				},
@@ -92,38 +84,38 @@ const config: Config = {
 						},
 					],
 				},
-				{
-					title: 'Community',
-					items: [
-						{
-							label: 'Stack Overflow',
-							href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-						},
-						{
-							label: 'Discord',
-							href: 'https://discordapp.com/invite/docusaurus',
-						},
-						{
-							label: 'Twitter',
-							href: 'https://twitter.com/docusaurus',
-						},
-					],
-				},
+				// {
+				// 	title: 'Community',
+				// 	items: [
+				// 		{
+				// 			label: 'Stack Overflow',
+				// 			href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+				// 		},
+				// 		{
+				// 			label: 'Discord',
+				// 			href: 'https://discordapp.com/invite/docusaurus',
+				// 		},
+				// 		{
+				// 			label: 'Twitter',
+				// 			href: 'https://twitter.com/docusaurus',
+				// 		},
+				// 	],
+				// },
 				{
 					title: 'More',
 					items: [
-						{
-							label: 'Blog',
-							to: '/blog',
-						},
+						// {
+						// 	label: 'Blog',
+						// 	to: '/blog',
+						// },
 						{
 							label: 'GitHub',
-							href: 'https://github.com/facebook/docusaurus',
+							href: 'https://github.com/GAWCL/react-social-share',
 						},
 					],
 				},
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+			copyright: `Copyright © ${new Date().getFullYear()} Cloud System, C.A. Created by GAW.`,
 		},
 		prism: {
 			theme: prismThemes.github,

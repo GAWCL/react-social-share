@@ -15,13 +15,15 @@ function HomepageHeader() {
 				<Heading as="h1" className="hero__title">
 					{siteConfig.title}
 				</Heading>
-				<p className="hero__subtitle">{siteConfig.tagline}</p>
+				<p className="hero__subtitle">
+					La libreria mas profesional para compartir tus RRSS
+				</p>
 				<div className={styles.buttons}>
 					<Link
 						className="button button--secondary button--lg"
 						to="/docs/intro"
 					>
-						Docusaurus Tutorial - 5min ⏱️
+						Lee acerca de React Social Share
 					</Link>
 				</div>
 			</div>
@@ -37,9 +39,10 @@ export default function Home(): JSX.Element {
 			description="Description will go into a meta tag in <head />"
 		>
 			<HomepageHeader />
-			<main>
-				<HomepageFeatures />
-			</main>
+
+			<p>Rapido</p>
+			<p>Entendible</p>
+			<p>Robusto</p>
 		</Layout>
 	);
 }

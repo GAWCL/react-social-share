@@ -8,15 +8,15 @@ const config: Config = {
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
-	url: 'https://carlosargelio.github.io',
+	url: 'https://gawcl.github.io',
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: '/lib-wpp/',
+	baseUrl: '/react-social-share/',
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: 'carlosargelio', // Usually your GitHub org/user name.
-	projectName: 'lib-wpp', // Usually your repo name.
+	organizationName: 'GAW', // Usually your GitHub org/user name.
+	projectName: 'react-social-share', // Usually your repo name.
 
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
